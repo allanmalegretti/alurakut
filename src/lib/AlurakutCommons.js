@@ -55,7 +55,6 @@ export function AlurakutMenu({ githubUser }) {
 AlurakutMenu.Wrapper = styled.header`
   width: 100%;
   background-color: #308BC5;
-
   .alurakutMenuProfileSidebar {
     background: white;
     position: fixed;
@@ -86,7 +85,6 @@ AlurakutMenu.Wrapper = styled.header`
       text-decoration: none;
       font-weight: 800;
     }
-
     hr {
       margin-top: 12px;
       margin-bottom: 8px;
@@ -94,7 +92,6 @@ AlurakutMenu.Wrapper = styled.header`
       border-bottom-color: #ECF2FA;
     }
   }
-
   .container {
     background-color: #308BC5;
     padding: 7px 16px;
@@ -107,7 +104,6 @@ AlurakutMenu.Wrapper = styled.header`
     @media(min-width: 860px) {
       justify-content: flex-start;
     }
-
     button {
       border: 0;
       background: transparent;
@@ -117,7 +113,6 @@ AlurakutMenu.Wrapper = styled.header`
         display: none;
       }
     }
-
     nav {
       display: none;
       @media(min-width: 860px) {
@@ -339,8 +334,6 @@ const AlurakutLoginScreen = css`
     --textQuarternaryColor: #C5C6CA;
     --commonRadius: 8px;
   }
-
-
   .loginScreen {
     padding: 16px;
     max-width: 1110px;
@@ -503,6 +496,5 @@ export const AlurakutStyles = css`
       box-shadow: 0px 0px 5px #33333357;
     }
   }
-
   ${AlurakutLoginScreen}
 `;
